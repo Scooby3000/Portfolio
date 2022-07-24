@@ -397,7 +397,7 @@ section .container {
 }
 
 .about-me .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .about-me .content ul i {
@@ -408,6 +408,7 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+  padding-bottom: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1226,7 +1227,7 @@ time {
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
-    /250+45-6/
+    /* /250+45-6/ */
   }
 }
 
