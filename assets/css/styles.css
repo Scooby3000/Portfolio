@@ -408,8 +408,7 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
-  padding-bottom: 50px;
-}
+ }
 
 /*--------------------------------------------------------------
 # Counts
