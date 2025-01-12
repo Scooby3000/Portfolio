@@ -95,32 +95,29 @@
     time: 1000
   });
 
-  // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        items: 3
-      }
-    }
-  });
+  // // Skills section
+  // document.querySelectorAll('.skill-item').forEach((item) => {
+  //   item.addEventListener('click', (e) => {
+  //     const ripple = document.createElement('span');
+  //     ripple.className = 'ripple';
+  //     ripple.style.left = `${e.clientX - item.offsetLeft}px`;
+  //     ripple.style.top = `${e.clientY - item.offsetTop}px`;
+  //     item.appendChild(ripple);
+  
+  //     setTimeout(() => {
+  //       ripple.remove();
+  //     }, 600);
+  //   });
+  // });
+  
+  // // Add smooth fade-in animations when the section appears
+  // window.addEventListener('scroll', () => {
+  //   const skillSection = document.querySelector('.skills-section');
+  //   const rect = skillSection.getBoundingClientRect();
+  //   if (rect.top < window.innerHeight) {
+  //     skillSection.classList.add('fade-in');
+  //   }
+  // });
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
