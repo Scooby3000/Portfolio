@@ -1320,7 +1320,6 @@ time {
 
 
 
-
 /* Skills Section */
 .skills-section {
   padding: 60px 20px;
@@ -1706,4 +1705,28 @@ time {
   font-size: 1rem;
   color: #a1b7cf;
   margin: 5px 0;
-  font-style:
+  font-style: italic;
+}
+
+.experience-description {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    padding: 15px;
+  }
+
+  .experience-title {
+    font-size: 1.4rem;
+  }
+
+  .experience-duration {
+    font-size: 0.9rem;
+  }
+
+  .experience-description {
+    font-size: 1rem;
+  }
+}
